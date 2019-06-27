@@ -1,21 +1,20 @@
 <template>
   <div>
-    <input type="text">
+    <input type="text"  v-bind = "$attrs">
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Input',
-  data () {
+  name: "Input",
+  data() {
     return {
-      msg: ''
-    }
+      msg: ""
+    };
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 </style>
